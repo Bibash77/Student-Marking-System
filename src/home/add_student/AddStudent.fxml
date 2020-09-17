@@ -7,10 +7,9 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-
-<AnchorPane prefHeight="406.0" prefWidth="438.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.Student.AddStudentController">
+<AnchorPane fx:id="rootPane" prefHeight="350.0" prefWidth="438.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.add_student.AddStudentController">
    <children>
-      <VBox layoutY="8.0" prefHeight="415.0" prefWidth="435.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
+      <VBox layoutY="8.0" prefHeight="350.0" prefWidth="438.0" AnchorPane.bottomAnchor="-8.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
          <children>
             <TextField fx:id="studentId" prefHeight="37.0" prefWidth="413.0" promptText="Student ID">
                <opaqueInsets>
@@ -36,7 +35,7 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </VBox.margin>
             </TextField>
-            <TextField fx:id="Exam" layoutX="20.0" layoutY="134.0" prefHeight="37.0" prefWidth="376.0" promptText="Exam">
+            <TextField fx:id="exam" layoutX="20.0" layoutY="134.0" prefHeight="37.0" prefWidth="376.0" promptText="Exam">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
@@ -44,15 +43,7 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </VBox.margin>
             </TextField>
-            <TextField fx:id="Grade" layoutX="10.0" layoutY="181.0" prefHeight="37.0" prefWidth="376.0" promptText="Grade">
-               <opaqueInsets>
-                  <Insets />
-               </opaqueInsets>
-               <VBox.margin>
-                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
-               </VBox.margin>
-            </TextField>
-            <TextField fx:id="Total" layoutX="10.0" layoutY="218.0" prefHeight="37.0" prefWidth="376.0" promptText="Total">
+            <TextField fx:id="total" layoutX="10.0" layoutY="218.0" prefHeight="37.0" prefWidth="376.0" promptText="Total">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
@@ -62,7 +53,7 @@
             </TextField>
             <HBox prefHeight="64.0" prefWidth="435.0">
                <children>
-                  <Button fx:id="save" mnemonicParsing="false" onAction="#addStudent" prefHeight="46.0" prefWidth="202.0" stylesheets="@addbook.css" text="Save">
+                  <Button fx:id="save" mnemonicParsing="false" onAction="#addStudent" prefHeight="46.0" prefWidth="202.0" style="-fx-background-color: #29b6f6;" stylesheets="@addbook.css" text="Save">
                      <HBox.margin>
                         <Insets left="10.0" />
                      </HBox.margin>

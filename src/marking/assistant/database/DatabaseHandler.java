@@ -6,16 +6,25 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import javax.swing.JOptionPane;
 
 public class DatabaseHandler {
 
     private static final String DB_URL = "jdbc:derby:database;create=true";
     private static Connection connection = null;
     private static Statement statement = null;
+    private static DatabaseHandler databaseHandler = null;
 
-    public DatabaseHandler() {
+    private DatabaseHandler() {
         this.createDBConnection();
         setMarksTable();
+    }
+
+    public static DatabaseHandler getInstance(){
+        if (databaseHandler ==  null){
+         databaseHandler = new DatabaseHandler();
+        }
+        return databaseHandler;
     }
 
     void createDBConnection() {
@@ -49,6 +58,32 @@ public class DatabaseHandler {
             }
         } catch (SQLException ex) {
             ex.printStackTrace();
+        }
+    }
+
+    public ResultSet execQuery(String query) {
+        ResultSet result;
+        try {
+            statement = connection.createStatement();
+            result = statement.executeQuery(query);
+        } catch (SQLException ex) {
+            System.out.println("Exception at execQuery:dataHandler" + ex.getLocalizedMessage());
+            return null;
+        }
+        return result;
+    }
+
+    public boolean execAction(String qu) {
+        try {
+            statement = connection.createStatement();
+            statement.execute(qu);
+            return true;
+        } catch (SQLException ex) {
+            JOptionPane.showMessageDialog(null, "Error:" + ex.getMessage(), "Error Occured",
+                JOptionPane.ERROR_MESSAGE);
+            System.out.println(ex.getMessage() + ' ' + "Error Occured" +JOptionPane.ERROR_MESSAGE);
+            System.out.println("Exception at execQuery:dataHandler" + ex.getLocalizedMessage());
+            return false;
         }
     }
 
