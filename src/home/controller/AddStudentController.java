@@ -1,9 +1,10 @@
-package home.add_student;
+package home.controller;
 
 import java.net.URL;
 import java.sql.ResultSet;
 import java.util.ResourceBundle;
 
+import home.modal.StudentMarks;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -18,6 +19,7 @@ import marking.assistant.database.DatabaseHandler;
 public class AddStudentController implements Initializable {
 
 
+    public boolean isUpdateOperation = false;
     @FXML
     private TextField studentId;
 
@@ -47,11 +49,13 @@ public class AddStudentController implements Initializable {
     @FXML
     void addStudent(ActionEvent event) {
         String id  = studentId.getText();
-        int assignment1 = Integer.parseInt(this.assignment1.getText());
-        int assignment2 = Integer.parseInt(this.assignment2.getText());
-        int exam = Integer.parseInt(this.exam.getText());
-        int total = Integer.parseInt(this.total.getText());
-        String grade = findGrade(total);
+        try {
+            int assignment1 = Integer.parseInt(this.assignment1.getText());
+            int assignment2 = Integer.parseInt(this.assignment2.getText());
+            int exam = Integer.parseInt(this.exam.getText());
+            int total = Integer.parseInt(this.total.getText());
+            String grade = findGrade(total , assignment1 , assignment2 , exam);
+
 
         if(id.isEmpty() || grade.isEmpty() || assignment1 < 0 || assignment2 < 0 || exam < 0
         || total < 0) {
@@ -62,20 +66,29 @@ public class AddStudentController implements Initializable {
             return;
         }
 
-        String qu = "INSERT INTO MARKS VALUES ( "
-            + "'" + id + "'," +
-            + assignment1 + "," +
-              assignment2 + "," +
-             exam + "," +
-            total + ","+
-            "'" + grade + "')" ;
+        String qu = "";
+        if (isUpdateOperation){
+            qu = "UPDATE MARKS SET ASSIGNMENT1="+ assignment1+","
+                + "ASSIGNMENT2=" + assignment2 + ","
+                + "EXAM=" + exam + ","
+                + "total=" + total + ","
+                + "grade='"+ grade + "' where STUDENTID='"+ id +"'";
+        } else {
+             qu = "INSERT INTO MARKS VALUES ( "
+                + "'" + id + "'," +
+                + assignment1 + "," +
+                assignment2 + "," +
+                exam + "," +
+                total + ","+
+                "'" + grade + "')" ;
+        }
 
         System.out.println(qu);
 
         if(databaseHandler.execAction(qu)){
             Alert alert = new Alert(AlertType.INFORMATION);
             alert.setHeaderText(null);
-            alert.setContentText("successfully added student marks");
+            alert.setContentText("successfully saved student marks");
             alert.showAndWait();
         } else {
             Alert alert = new Alert(AlertType.ERROR);
@@ -84,6 +97,12 @@ public class AddStudentController implements Initializable {
             alert.showAndWait();
         }
         cancel(null);
+        }catch (Exception ex){
+            Alert alert = new Alert(AlertType.ERROR);
+            alert.setHeaderText(null);
+            alert.setContentText("Please enter valid data");
+            alert.showAndWait();
+        }
 
     }
 
@@ -111,25 +130,37 @@ public class AddStudentController implements Initializable {
         getData();
     }
 
-    String findGrade  (int marks){
-        String grade = "";
+    String findGrade  (int marks , int ass1 , int ass2 , int exam){
+       if(ass1 <= 0 && ass2 <= 0){
+           return "AF";
+       }
         if(marks >= 85 && marks <=100){
-            grade = "HD";
+            return  "HD";
         } else if(marks >= 75 && marks < 85){
-            grade = "D";
+            return  "D";
         } else if(marks >= 65 && marks < 75){
-            grade = "C";
+            return  "C";
         } else if(marks >= 50 && marks < 65){
-            grade = "P";
+            return  "P";
         } else {
-            if(marks >= 45 && marks <= 50){
-                grade = "SA";
+            if(marks < 50 && exam < 0){
+                return "NS";
+            }
+            if(marks >= 45 && marks < 50 && exam > 0 && (ass1 <= 0 || ass2 <= 0)){
+                return "SE";
             } else {
-                grade = "F";
+                return  "F";
             }
         }
+    }
 
-        return grade;
+    // this will set data if the scene is called as update with data
+    public void setUpdateData(StudentMarks studentMarks){
+        studentId.setText(studentMarks.getStudentId());
+        assignment1.setText(String.valueOf(studentMarks.getAssignment1()));
+        assignment2.setText(String.valueOf(studentMarks.getAssignment2()));
+        exam.setText(String.valueOf(studentMarks.getExam()));
+        total.setText(String.valueOf(studentMarks.getTotal()));
     }
 
 }

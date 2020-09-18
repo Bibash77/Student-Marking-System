@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane fx:id="rootPane" prefHeight="350.0" prefWidth="438.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.add_student.AddStudentController">
+<AnchorPane fx:id="rootPane" prefHeight="350.0" prefWidth="438.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.controller.AddStudentController">
    <children>
       <VBox layoutY="8.0" prefHeight="350.0" prefWidth="438.0" AnchorPane.bottomAnchor="-8.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="8.0">
          <children>
@@ -53,12 +53,12 @@
             </TextField>
             <HBox prefHeight="64.0" prefWidth="435.0">
                <children>
-                  <Button fx:id="save" mnemonicParsing="false" onAction="#addStudent" prefHeight="46.0" prefWidth="202.0" style="-fx-background-color: #29b6f6;" stylesheets="@addbook.css" text="Save">
+                  <Button fx:id="save" mnemonicParsing="false" onAction="#addStudent" prefHeight="46.0" prefWidth="202.0" style="-fx-background-color: #29b6f6;" stylesheets="@../../assets/css/addbook.css" text="Save">
                      <HBox.margin>
                         <Insets left="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="cancel" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#cancel" prefHeight="46.0" prefWidth="206.0" style="-fx-background-color: #ff2929;" stylesheets="@addbook.css" text="Cancel">
+                  <Button fx:id="cancel" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#cancel" prefHeight="46.0" prefWidth="206.0" style="-fx-background-color: #ff2929;" stylesheets="@../../assets/css/addbook.css" text="Cancel">
                      <HBox.margin>
                         <Insets left="10.0" />
                      </HBox.margin>

@@ -1,74 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/arrow-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/data-repository-icon-16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/data-share-icon-view.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/download.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/search-512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/search-icon-png-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/view-data.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/view-files.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/add_student/AddStudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/list_student_marks/MarksList.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/list_student_marks/MarksListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/main/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/main/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/main/main.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/view/StudentMarks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="adding modal integration">
+      <change afterPath="$PROJECT_DIR$/src/assets/img/right-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/controller/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/database/db.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/database/log/log.ctrl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/log/log1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/database/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c10.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c10.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c101.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c101.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c111.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c111.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c121.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c121.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c130.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c130.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c141.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c141.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c150.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c161.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c161.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c171.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c171.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c180.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c180.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c1a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c1a1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c1b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c1b1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c20.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c230.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c230.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c241.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c241.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c31.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c380.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c380.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c391.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c391.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c3a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c3a1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c3b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c3b1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c41.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c41.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seg0/c470.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c470.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seg0/c481.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c481.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c51.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c60.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c71.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c71.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c81.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c90.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/ca1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/cb1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/cf0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/cf0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/database/service.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Marking-System/home/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Marking-System/home/Student/AddStudent.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Marking-System/home/Student/AddStudentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Marking-System/home/Student/addbook.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Marking-System/home/fxml/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Marking-System/home/fxml/Main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Marking-System/marking/assistant/database/DatabaseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Marking-System/marking/assistant/database/DatabaseHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Student/AddStudent.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/add_student/AddStudent.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Student/AddStudentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Student/addbook.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/add_student/addbook.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/fxml/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/fxml/Main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/marking/assistant/database/DatabaseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marking/assistant/database/DatabaseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Marking-System/home/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Marking-System/home/fxml/Main.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/arrow-right.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/arrow-right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data-repository-icon-16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/data-repository-icon-16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/data-share-icon-view.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/data-share-icon-view.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/download.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/download.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/images.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/search-512.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/search-512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/search-icon-png-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/search-icon-png-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/view-data.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/view-data.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/view-files.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/view-files.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/add_student/AddStudent.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/view/AddStudent.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/add_student/AddStudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/controller/AddStudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/add_student/addbook.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/addbook.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/fxml/Main.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/list_student_marks/MarksList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/view/MarksList.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/list_student_marks/MarksListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/controller/MarksListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/main/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/main/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/view/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/view/StudentMarks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/modal/StudentMarks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,8 +148,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\Marking-System\src\home\assets\css" />
+      <recent name="D:\projects\Marking-System\src\home\assets\img" />
+      <recent name="D:\projects\Marking-System\src\home\assets" />
+      <recent name="D:\projects\Marking-System\src\home\view" />
       <recent name="D:\projects\Marking-System\src\home\Student" />
-      <recent name="D:\projects\Marking-System\src\home\fxml" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -213,12 +182,12 @@
       <Port>5050</Port>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="home.main.Main" />
+      <option name="MAIN_CLASS_NAME" value="home.Main" />
       <module name="Marking-System" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="home.add_student.*" />
+          <option name="PATTERN" value="home.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,7 +203,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="home.list_student_marks.*" />
+          <option name="PATTERN" value="home.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,8 +269,17 @@
       <workItem from="1600218501835" duration="241000" />
       <workItem from="1600221315006" duration="6432000" />
       <workItem from="1600228252108" duration="19633000" />
-      <workItem from="1600307103508" duration="9464000" />
+      <workItem from="1600307103508" duration="24912000" />
+      <workItem from="1600392473259" duration="26514000" />
     </task>
+    <task id="LOCAL-00001" summary="adding modal integration">
+      <created>1600325317752</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600325317752</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +289,8 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <MESSAGE value="adding modal integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding modal integration" />
   </component>
   <component name="WindowStateProjectService">
     <state x="452" y="202" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600241199189">
@@ -321,66 +301,78 @@
       <screen x="0" y="30" width="1366" height="738" />
     </state>
     <state x="488" y="108" key="#com.intellij.ide.util.MemberChooser/0.30.1366.738@0.30.1366.738" timestamp="1600272695548" />
-    <state x="438" y="106" key="#xdebugger.evaluate" timestamp="1600240756987">
+    <state x="438" y="106" key="#xdebugger.evaluate" timestamp="1600334281174">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state x="438" y="106" key="#xdebugger.evaluate/0.30.1366.738@0.30.1366.738" timestamp="1600240756987" />
+    <state x="438" y="106" key="#xdebugger.evaluate/0.30.1366.738@0.30.1366.738" timestamp="1600334281174" />
+    <state x="328" y="30" key="CommitChangelistDialog2" timestamp="1600325313202">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="328" y="30" key="CommitChangelistDialog2/0.30.1366.738@0.30.1366.738" timestamp="1600325313202" />
     <state x="463" y="154" key="FileChooserDialogImpl" timestamp="1600223817440">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
     <state x="463" y="154" key="FileChooserDialogImpl/0.30.1366.738@0.30.1366.738" timestamp="1600223817440" />
-    <state width="1323" height="231" key="GridCell.Tab.0.bottom" timestamp="1600325214603">
+    <state width="1323" height="208" key="GridCell.Tab.0.bottom" timestamp="1600442536528">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="231" key="GridCell.Tab.0.bottom/0.30.1366.738@0.30.1366.738" timestamp="1600325214603" />
-    <state width="1323" height="231" key="GridCell.Tab.0.center" timestamp="1600325214602">
+    <state width="1323" height="208" key="GridCell.Tab.0.bottom/0.30.1366.738@0.30.1366.738" timestamp="1600442536528" />
+    <state width="1323" height="208" key="GridCell.Tab.0.center" timestamp="1600442536528">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="231" key="GridCell.Tab.0.center/0.30.1366.738@0.30.1366.738" timestamp="1600325214602" />
-    <state width="1323" height="231" key="GridCell.Tab.0.left" timestamp="1600325214602">
+    <state width="1323" height="208" key="GridCell.Tab.0.center/0.30.1366.738@0.30.1366.738" timestamp="1600442536528" />
+    <state width="1323" height="208" key="GridCell.Tab.0.left" timestamp="1600442536528">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="231" key="GridCell.Tab.0.left/0.30.1366.738@0.30.1366.738" timestamp="1600325214602" />
-    <state width="1323" height="231" key="GridCell.Tab.0.right" timestamp="1600325214602">
+    <state width="1323" height="208" key="GridCell.Tab.0.left/0.30.1366.738@0.30.1366.738" timestamp="1600442536528" />
+    <state width="1323" height="208" key="GridCell.Tab.0.right" timestamp="1600442536528">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="231" key="GridCell.Tab.0.right/0.30.1366.738@0.30.1366.738" timestamp="1600325214602" />
-    <state width="1323" height="231" key="GridCell.Tab.1.bottom" timestamp="1600325214499">
+    <state width="1323" height="208" key="GridCell.Tab.0.right/0.30.1366.738@0.30.1366.738" timestamp="1600442536528" />
+    <state width="1323" height="208" key="GridCell.Tab.1.bottom" timestamp="1600442536132">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="231" key="GridCell.Tab.1.bottom/0.30.1366.738@0.30.1366.738" timestamp="1600325214499" />
-    <state width="1323" height="231" key="GridCell.Tab.1.center" timestamp="1600325214499">
+    <state width="1323" height="208" key="GridCell.Tab.1.bottom/0.30.1366.738@0.30.1366.738" timestamp="1600442536132" />
+    <state width="1323" height="208" key="GridCell.Tab.1.center" timestamp="1600442536132">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="231" key="GridCell.Tab.1.center/0.30.1366.738@0.30.1366.738" timestamp="1600325214499" />
-    <state width="1323" height="231" key="GridCell.Tab.1.left" timestamp="1600325214498">
+    <state width="1323" height="208" key="GridCell.Tab.1.center/0.30.1366.738@0.30.1366.738" timestamp="1600442536132" />
+    <state width="1323" height="208" key="GridCell.Tab.1.left" timestamp="1600442536132">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="231" key="GridCell.Tab.1.left/0.30.1366.738@0.30.1366.738" timestamp="1600325214498" />
-    <state width="1323" height="231" key="GridCell.Tab.1.right" timestamp="1600325214499">
+    <state width="1323" height="208" key="GridCell.Tab.1.left/0.30.1366.738@0.30.1366.738" timestamp="1600442536132" />
+    <state width="1323" height="208" key="GridCell.Tab.1.right" timestamp="1600442536132">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="231" key="GridCell.Tab.1.right/0.30.1366.738@0.30.1366.738" timestamp="1600325214499" />
+    <state width="1323" height="208" key="GridCell.Tab.1.right/0.30.1366.738@0.30.1366.738" timestamp="1600442536132" />
     <state x="163" y="30" key="SettingsEditor" timestamp="1600223819686">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
     <state x="163" y="30" key="SettingsEditor/0.30.1366.738@0.30.1366.738" timestamp="1600223819686" />
-    <state x="379" y="223" key="com.intellij.ide.util.TipDialog" timestamp="1600221315840">
+    <state x="275" y="132" key="Vcs.Push.Dialog.v2" timestamp="1600325325820">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state x="379" y="223" key="com.intellij.ide.util.TipDialog/0.30.1366.738@0.30.1366.738" timestamp="1600221315840" />
-    <state x="379" y="131" width="607" height="536" key="find.popup" timestamp="1600272359286">
+    <state x="275" y="132" key="Vcs.Push.Dialog.v2/0.30.1366.738@0.30.1366.738" timestamp="1600325325820" />
+    <state x="379" y="223" key="com.intellij.ide.util.TipDialog" timestamp="1600392558434">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state x="379" y="131" width="607" height="536" key="find.popup/0.30.1366.738@0.30.1366.738" timestamp="1600272359286" />
+    <state x="379" y="223" key="com.intellij.ide.util.TipDialog/0.30.1366.738@0.30.1366.738" timestamp="1600392558434" />
+    <state x="332" y="30" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600332675309">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="332" y="30" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.30.1366.738@0.30.1366.738" timestamp="1600332675309" />
+    <state x="379" y="131" width="607" height="536" key="find.popup" timestamp="1600424051039">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="379" y="131" width="607" height="536" key="find.popup/0.30.1366.738@0.30.1366.738" timestamp="1600424051039" />
     <state x="339" y="180" key="run.anything.popup" timestamp="1600325181891">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
     <state x="339" y="180" key="run.anything.popup/0.30.1366.738@0.30.1366.738" timestamp="1600325181891" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1600309956977">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1600400911137">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.30.1366.738@0.30.1366.738" timestamp="1600309956977" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.30.1366.738@0.30.1366.738" timestamp="1600400911137" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -394,6 +386,11 @@
           <url>file://$PROJECT_DIR$/src/marking/assistant/database/DatabaseHandler.java</url>
           <line>78</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/home/modal/StudentMarks.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

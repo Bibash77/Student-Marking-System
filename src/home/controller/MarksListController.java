@@ -1,12 +1,10 @@
-package home.list_student_marks;
+package home.controller;
 
 import java.net.URL;
 import java.sql.ResultSet;
 import java.util.ResourceBundle;
 
-import home.view.StudentMarks;
-import javafx.beans.property.SimpleIntegerProperty;
-import javafx.beans.property.SimpleStringProperty;
+import home.modal.StudentMarks;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;

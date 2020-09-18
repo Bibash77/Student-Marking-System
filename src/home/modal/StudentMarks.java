@@ -1,4 +1,4 @@
-package home.view;
+package home.modal;
 
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
@@ -19,6 +19,10 @@ public class StudentMarks{
         this.exam = new SimpleIntegerProperty(exam);
         this.total = new SimpleIntegerProperty(total);
         this.grade = new SimpleStringProperty(grade);
+    }
+
+    public StudentMarks(){
+
     }
 
     public String getStudentId() {
