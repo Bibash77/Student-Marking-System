@@ -2,39 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="adding modal integration">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/right-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/home/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/utils/MarksObservableList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/database/db.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/database/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/log/log1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/database/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c470.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c470.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c481.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c481.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Marking-System/home/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Marking-System/home/fxml/Main.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/arrow-right.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/arrow-right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/data-repository-icon-16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/data-repository-icon-16.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/data-share-icon-view.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/data-share-icon-view.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/download.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/download.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/images.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/search-512.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/search-512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/search-icon-png-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/search-icon-png-5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/view-data.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/view-data.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/view-files.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/view-files.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/add_student/AddStudent.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/view/AddStudent.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/add_student/AddStudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/controller/AddStudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/add_student/addbook.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/addbook.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/fxml/Main.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/list_student_marks/MarksList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/view/MarksList.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/list_student_marks/MarksListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/controller/MarksListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/main/MainController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/main/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/view/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/view/StudentMarks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/modal/StudentMarks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/controller/MainController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,8 +62,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -130,6 +103,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
@@ -270,7 +244,8 @@
       <workItem from="1600221315006" duration="6432000" />
       <workItem from="1600228252108" duration="19633000" />
       <workItem from="1600307103508" duration="24912000" />
-      <workItem from="1600392473259" duration="26514000" />
+      <workItem from="1600392473259" duration="26646000" />
+      <workItem from="1600487175841" duration="1198000" />
     </task>
     <task id="LOCAL-00001" summary="adding modal integration">
       <created>1600325317752</created>
@@ -279,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600325317752</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding modal integration">
+      <created>1600445006051</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600445006051</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,54 +287,66 @@
       <screen x="0" y="30" width="1366" height="738" />
     </state>
     <state x="438" y="106" key="#xdebugger.evaluate/0.30.1366.738@0.30.1366.738" timestamp="1600334281174" />
-    <state x="328" y="30" key="CommitChangelistDialog2" timestamp="1600325313202">
+    <state x="328" y="30" key="CommitChangelistDialog2" timestamp="1600445096569">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state x="328" y="30" key="CommitChangelistDialog2/0.30.1366.738@0.30.1366.738" timestamp="1600325313202" />
+    <state x="328" y="30" key="CommitChangelistDialog2/0.30.1366.738@0.30.1366.738" timestamp="1600445096569" />
+    <state x="119" y="86" key="DiffContextDialog" timestamp="1600445059242">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="119" y="86" key="DiffContextDialog/0.30.1366.738@0.30.1366.738" timestamp="1600445059242" />
     <state x="463" y="154" key="FileChooserDialogImpl" timestamp="1600223817440">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
     <state x="463" y="154" key="FileChooserDialogImpl/0.30.1366.738@0.30.1366.738" timestamp="1600223817440" />
-    <state width="1323" height="208" key="GridCell.Tab.0.bottom" timestamp="1600442536528">
+    <state width="1323" height="208" key="GridCell.Tab.0.bottom" timestamp="1600489344084">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="208" key="GridCell.Tab.0.bottom/0.30.1366.738@0.30.1366.738" timestamp="1600442536528" />
-    <state width="1323" height="208" key="GridCell.Tab.0.center" timestamp="1600442536528">
+    <state width="1323" height="208" key="GridCell.Tab.0.bottom/0.30.1366.738@0.30.1366.738" timestamp="1600489344084" />
+    <state width="1323" height="208" key="GridCell.Tab.0.center" timestamp="1600489344084">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="208" key="GridCell.Tab.0.center/0.30.1366.738@0.30.1366.738" timestamp="1600442536528" />
-    <state width="1323" height="208" key="GridCell.Tab.0.left" timestamp="1600442536528">
+    <state width="1323" height="208" key="GridCell.Tab.0.center/0.30.1366.738@0.30.1366.738" timestamp="1600489344084" />
+    <state width="1323" height="208" key="GridCell.Tab.0.left" timestamp="1600489344083">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="208" key="GridCell.Tab.0.left/0.30.1366.738@0.30.1366.738" timestamp="1600442536528" />
-    <state width="1323" height="208" key="GridCell.Tab.0.right" timestamp="1600442536528">
+    <state width="1323" height="208" key="GridCell.Tab.0.left/0.30.1366.738@0.30.1366.738" timestamp="1600489344083" />
+    <state width="1323" height="208" key="GridCell.Tab.0.right" timestamp="1600489344084">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="208" key="GridCell.Tab.0.right/0.30.1366.738@0.30.1366.738" timestamp="1600442536528" />
-    <state width="1323" height="208" key="GridCell.Tab.1.bottom" timestamp="1600442536132">
+    <state width="1323" height="208" key="GridCell.Tab.0.right/0.30.1366.738@0.30.1366.738" timestamp="1600489344084" />
+    <state width="1323" height="208" key="GridCell.Tab.1.bottom" timestamp="1600489343940">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="208" key="GridCell.Tab.1.bottom/0.30.1366.738@0.30.1366.738" timestamp="1600442536132" />
-    <state width="1323" height="208" key="GridCell.Tab.1.center" timestamp="1600442536132">
+    <state width="1323" height="208" key="GridCell.Tab.1.bottom/0.30.1366.738@0.30.1366.738" timestamp="1600489343940" />
+    <state width="1323" height="208" key="GridCell.Tab.1.center" timestamp="1600489343940">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="208" key="GridCell.Tab.1.center/0.30.1366.738@0.30.1366.738" timestamp="1600442536132" />
-    <state width="1323" height="208" key="GridCell.Tab.1.left" timestamp="1600442536132">
+    <state width="1323" height="208" key="GridCell.Tab.1.center/0.30.1366.738@0.30.1366.738" timestamp="1600489343940" />
+    <state width="1323" height="208" key="GridCell.Tab.1.left" timestamp="1600489343940">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="208" key="GridCell.Tab.1.left/0.30.1366.738@0.30.1366.738" timestamp="1600442536132" />
-    <state width="1323" height="208" key="GridCell.Tab.1.right" timestamp="1600442536132">
+    <state width="1323" height="208" key="GridCell.Tab.1.left/0.30.1366.738@0.30.1366.738" timestamp="1600489343940" />
+    <state width="1323" height="208" key="GridCell.Tab.1.right" timestamp="1600489343940">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="208" key="GridCell.Tab.1.right/0.30.1366.738@0.30.1366.738" timestamp="1600442536132" />
+    <state width="1323" height="208" key="GridCell.Tab.1.right/0.30.1366.738@0.30.1366.738" timestamp="1600489343940" />
     <state x="163" y="30" key="SettingsEditor" timestamp="1600223819686">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
     <state x="163" y="30" key="SettingsEditor/0.30.1366.738@0.30.1366.738" timestamp="1600223819686" />
-    <state x="275" y="132" key="Vcs.Push.Dialog.v2" timestamp="1600325325820">
+    <state x="530" y="314" key="VCS.ChangelistChooser" timestamp="1600445050623">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state x="275" y="132" key="Vcs.Push.Dialog.v2/0.30.1366.738@0.30.1366.738" timestamp="1600325325820" />
+    <state x="530" y="314" key="VCS.ChangelistChooser/0.30.1366.738@0.30.1366.738" timestamp="1600445050623" />
+    <state x="275" y="132" key="Vcs.Push.Dialog.v2" timestamp="1600445013586">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="275" y="132" key="Vcs.Push.Dialog.v2/0.30.1366.738@0.30.1366.738" timestamp="1600445013586" />
+    <state x="456" y="133" key="VcsDiffUtil.ChangesDialog" timestamp="1600445105601">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="456" y="133" key="VcsDiffUtil.ChangesDialog/0.30.1366.738@0.30.1366.738" timestamp="1600445105601" />
     <state x="379" y="223" key="com.intellij.ide.util.TipDialog" timestamp="1600392558434">
       <screen x="0" y="30" width="1366" height="738" />
     </state>

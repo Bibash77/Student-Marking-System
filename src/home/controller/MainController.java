@@ -32,7 +32,7 @@ import marking.assistant.database.DatabaseHandler;
 
 public class MainController implements Initializable {
 
-    static int currentIndex = 0;
+
     DatabaseHandler databaseHandler;
     List<StudentMarks> studentMarks = new ArrayList<>();
     @FXML
@@ -111,6 +111,8 @@ public class MainController implements Initializable {
     @FXML
     void refreshData(ActionEvent event) {
         this.loadStudentMarksData();
+        this.loadStudentMarksDataList(false);
+        this.searchById(null);
     }
 
 
@@ -346,4 +348,5 @@ public class MainController implements Initializable {
     void searchByGrades(ActionEvent event) {
         this.loadStudentMarksDataList(true);
     }
+
 }
