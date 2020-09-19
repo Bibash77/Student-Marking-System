@@ -112,7 +112,7 @@ public class MainController implements Initializable {
     void refreshData(ActionEvent event) {
         this.loadStudentMarksData();
         this.loadStudentMarksDataList(false);
-        this.searchById(null);
+        this.resetData();
     }
 
 
