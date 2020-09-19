@@ -112,7 +112,8 @@ public class MainController implements Initializable {
     void refreshData(ActionEvent event) {
         this.loadStudentMarksData();
         this.loadStudentMarksDataList(false);
-        this.resetData();
+        int loadIndex = Integer.parseInt(this.marksIndex.getText());
+        this.setData(studentMarks.get(loadIndex));
     }
 
 
