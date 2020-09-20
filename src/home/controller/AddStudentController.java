@@ -5,6 +5,7 @@ import java.sql.ResultSet;
 import java.util.ResourceBundle;
 
 import home.modal.StudentMarks;
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -15,6 +16,10 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import marking.assistant.database.DatabaseHandler;
+
+/**
+ * This Controller handles all the adding and updating functions
+ */
 
 public class AddStudentController implements Initializable {
 
@@ -46,6 +51,7 @@ public class AddStudentController implements Initializable {
 
     DatabaseHandler databaseHandler;
 
+    // function to add data and update data in data base
     @FXML
     void addStudent(ActionEvent event) {
         String id  = studentId.getText();
@@ -65,7 +71,6 @@ public class AddStudentController implements Initializable {
             alert.showAndWait();
             return;
         }
-
         String qu = "";
         if (isUpdateOperation){
             qu = "UPDATE MARKS SET ASSIGNMENT1="+ assignment1+","
@@ -90,46 +95,45 @@ public class AddStudentController implements Initializable {
             alert.setHeaderText(null);
             alert.setContentText("successfully saved student marks");
             alert.showAndWait();
+
         } else {
             Alert alert = new Alert(AlertType.ERROR);
             alert.setHeaderText(null);
             alert.setContentText("Failed to add student marks");
             alert.showAndWait();
         }
-        cancel(null);
         }catch (Exception ex){
             Alert alert = new Alert(AlertType.ERROR);
             alert.setHeaderText(null);
             alert.setContentText("Please enter valid data");
             alert.showAndWait();
         }
-
     }
 
+    // close scene when cancel button is clicked
     @FXML
     void cancel(ActionEvent event) {
         Stage stage = (Stage) rootPane.getScene().getWindow();
         stage.close();
     }
 
-    private void getData(){
-        String qu = "SELECT * FROM MARKS";
-        ResultSet rs = databaseHandler.execQuery(qu);
-        try {
-            while (rs.next()){
-                System.out.println(rs.getString("STUDENTID"));
-            }
-        }catch (Exception ex){
-            ex.printStackTrace();
-        }
-    }
-
+    // main method to initialize the stage
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         databaseHandler = DatabaseHandler.getInstance();
-        getData();
+        total.setEditable(false);
+        exam.textProperty().addListener((observable, oldValue, newValue) -> {
+           totalCalc(null);
+        });
+        assignment1.textProperty().addListener((observable, oldValue, newValue) -> {
+           totalCalc(null);
+        });
+        assignment2.textProperty().addListener((observable, oldValue, newValue) -> {
+           totalCalc(null);
+        });
     }
 
+    // method to find marks
     String findGrade  (int marks , int ass1 , int ass2 , int exam){
        if(ass1 <= 0 && ass2 <= 0){
            return "AF";
@@ -143,7 +147,7 @@ public class AddStudentController implements Initializable {
         } else if(marks >= 50 && marks < 65){
             return  "P";
         } else {
-            if(marks < 50 && exam < 0){
+            if(marks < 50 && exam <= 0){
                 return "NS";
             }
             if(marks >= 45 && marks < 50 && exam > 0 && (ass1 <= 0 || ass2 <= 0)){
@@ -157,11 +161,41 @@ public class AddStudentController implements Initializable {
     // this will set data if the scene is called as update with data
     public void setUpdateData(StudentMarks studentMarks){
         studentId.setText(studentMarks.getStudentId());
+        studentId.setEditable(false);
         assignment1.setText(String.valueOf(studentMarks.getAssignment1()));
         assignment2.setText(String.valueOf(studentMarks.getAssignment2()));
         exam.setText(String.valueOf(studentMarks.getExam()));
         total.setText(String.valueOf(studentMarks.getTotal()));
     }
 
+    // method to trigger calculation of all assignment
+    @FXML
+    void totalCalc(ActionEvent event) {
+        try {
+
+            int total = 0;
+            int assignment1 = 0;
+            int assignment2 = 0;
+            int exam = 0;
+
+            if(!this.assignment1.getText().equals("")){
+                assignment1 = Integer.parseInt(this.assignment1.getText());
+            }
+            if(!this.assignment2.getText().equals(""))
+            {
+                assignment2 = Integer.parseInt(this.assignment2.getText());
+            }
+            if(!this.exam.getText().equals(""))
+            {
+                exam = Integer.parseInt(this.exam.getText());
+            }
+            this.total.setText(String.valueOf(assignment1 + assignment2 + exam));
+        }catch (Exception ex){
+            Alert alert = new Alert(AlertType.ERROR);
+            alert.setHeaderText(null);
+            alert.setContentText("Please enter valid data");
+            alert.showAndWait();
+        }
+    }
 }
 

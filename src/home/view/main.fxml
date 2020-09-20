@@ -82,11 +82,6 @@
                                  <children>
                                     <HBox fx:id="searchBlock" alignment="TOP_CENTER" prefHeight="83.0" prefWidth="468.0" style="-fx-background-color: #e7e7e7;">
                                        <children>
-                                          <Button mnemonicParsing="false" onAction="#refreshData" text="Refresh">
-                                             <HBox.margin>
-                                                <Insets right="30.0" top="15.0" />
-                                             </HBox.margin>
-                                          </Button>
                                           <TextField fx:id="idSearchInput" onAction="#searchById" prefHeight="25.0" prefWidth="266.0" promptText="Enter Student Id">
                                              <HBox.margin>
                                                 <Insets top="15.0" />

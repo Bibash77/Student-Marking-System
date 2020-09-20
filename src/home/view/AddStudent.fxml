@@ -19,7 +19,7 @@
                   <Insets left="10.0" right="10.0" top="20.0" />
                </VBox.margin>
             </TextField>
-            <TextField fx:id="assignment1" layoutX="20.0" layoutY="30.0" prefHeight="37.0" prefWidth="376.0" promptText="Assignment-I">
+            <TextField fx:id="assignment1" layoutX="20.0" layoutY="30.0" onAction="#totalCalc" prefHeight="37.0" prefWidth="376.0" promptText="Assignment-I">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
@@ -27,7 +27,7 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </VBox.margin>
             </TextField>
-            <TextField fx:id="assignment2" layoutX="20.0" layoutY="77.0" prefHeight="37.0" prefWidth="376.0" promptText="Assignment-II">
+            <TextField fx:id="assignment2" layoutX="20.0" layoutY="77.0" onAction="#totalCalc" prefHeight="37.0" prefWidth="376.0" promptText="Assignment-II">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
@@ -35,7 +35,7 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </VBox.margin>
             </TextField>
-            <TextField fx:id="exam" layoutX="20.0" layoutY="134.0" prefHeight="37.0" prefWidth="376.0" promptText="Exam">
+            <TextField fx:id="exam" layoutX="20.0" layoutY="134.0" onAction="#totalCalc" prefHeight="37.0" prefWidth="376.0" promptText="Exam">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>

@@ -8,6 +8,9 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import javax.swing.JOptionPane;
 
+/**
+ * This class handles all the database related connection creation and query executing
+ */
 public class DatabaseHandler {
 
     private static final String DB_URL = "jdbc:derby:database;create=true";
@@ -15,11 +18,13 @@ public class DatabaseHandler {
     private static Statement statement = null;
     private static DatabaseHandler databaseHandler = null;
 
+    // initialize db connection and create connection in constructor
     private DatabaseHandler() {
         this.createDBConnection();
         setMarksTable();
     }
 
+    // creates instance of DatabaseHandler if its not created
     public static DatabaseHandler getInstance(){
         if (databaseHandler ==  null){
          databaseHandler = new DatabaseHandler();
@@ -27,6 +32,7 @@ public class DatabaseHandler {
         return databaseHandler;
     }
 
+    // connects with db
     void createDBConnection() {
         try {
             Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
@@ -36,6 +42,7 @@ public class DatabaseHandler {
         }
     }
 
+    // creates a marks table if it is not created
     void setMarksTable() {
         String TABLE_NAME = "Marks";
         try {
@@ -61,6 +68,7 @@ public class DatabaseHandler {
         }
     }
 
+    // executes query and returns data
     public ResultSet execQuery(String query) {
         ResultSet result;
         try {
@@ -73,6 +81,7 @@ public class DatabaseHandler {
         return result;
     }
 
+    // execute query but returns operation in boolean form
     public boolean execAction(String qu) {
         try {
             statement = connection.createStatement();

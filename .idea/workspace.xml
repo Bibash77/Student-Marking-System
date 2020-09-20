@@ -3,6 +3,48 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="adding modal integration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/database/db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/database/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/database/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c10.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c10.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c101.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c101.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c111.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c111.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c121.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c121.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c130.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c130.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c141.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c141.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c150.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c161.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c161.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c180.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c180.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c1a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c1a1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c1b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c1b1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c20.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c230.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c230.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c241.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c241.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c31.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c380.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c380.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c391.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c391.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c3a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c3a1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c3b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c3b1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c41.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c41.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c470.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c470.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c481.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c481.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c51.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c60.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c81.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/c90.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/ca1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/cf0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/seg0/cf0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/database/service.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Marking-System/marking/assistant/database/DatabaseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Marking-System/marking/assistant/database/DatabaseHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/controller/AddStudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/controller/AddStudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/controller/MarksListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/controller/MarksListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/utils/MarksObservableList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/view/AddStudent.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/view/AddStudent.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/view/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/view/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/marking/assistant/database/DatabaseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marking/assistant/database/DatabaseHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,12 +113,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1612" />
-    <option name="height" value="876" />
-  </component>
   <component name="ProjectId" id="1hY1ydmvj3ho1amgrCD1iDkAetf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -114,8 +150,12 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="home.controller" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects\Marking-System\src\home\assets\css" />
       <recent name="D:\projects\Marking-System\src\home\assets\img" />
@@ -240,7 +280,8 @@
       <workItem from="1600228252108" duration="19633000" />
       <workItem from="1600307103508" duration="24912000" />
       <workItem from="1600392473259" duration="26646000" />
-      <workItem from="1600487175841" duration="1438000" />
+      <workItem from="1600487175841" duration="21530000" />
+      <workItem from="1600565262453" duration="3538000" />
     </task>
     <task id="LOCAL-00001" summary="adding modal integration">
       <created>1600325317752</created>
@@ -263,7 +304,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600489436963</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding modal integration">
+      <created>1600489652132</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600489652132</updated>
+    </task>
+    <task id="LOCAL-00005" summary="sdsd">
+      <created>1600490742151</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600490742151</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +329,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="adding modal integration" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding modal integration" />
+    <MESSAGE value="sdsd" />
+    <option name="LAST_COMMIT_MESSAGE" value="sdsd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="452" y="202" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600241199189">
@@ -285,86 +341,94 @@
       <screen x="0" y="30" width="1366" height="738" />
     </state>
     <state x="488" y="108" key="#com.intellij.ide.util.MemberChooser/0.30.1366.738@0.30.1366.738" timestamp="1600272695548" />
-    <state x="438" y="106" key="#xdebugger.evaluate" timestamp="1600334281174">
+    <state x="438" y="106" key="#xdebugger.evaluate" timestamp="1600514052676">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state x="438" y="106" key="#xdebugger.evaluate/0.30.1366.738@0.30.1366.738" timestamp="1600334281174" />
-    <state x="328" y="30" key="CommitChangelistDialog2" timestamp="1600489649927">
+    <state x="438" y="106" key="#xdebugger.evaluate/0.30.1366.738@0.30.1366.738" timestamp="1600514052676" />
+    <state x="328" y="30" key="CommitChangelistDialog2" timestamp="1600596690650">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state x="328" y="30" key="CommitChangelistDialog2/0.30.1366.738@0.30.1366.738" timestamp="1600489649927" />
-    <state x="119" y="86" key="DiffContextDialog" timestamp="1600445059242">
+    <state x="328" y="30" key="CommitChangelistDialog2/0.30.1366.738@0.30.1366.738" timestamp="1600596690650" />
+    <state width="507" height="466" key="DebuggerActiveHint" timestamp="1600514570508">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state x="119" y="86" key="DiffContextDialog/0.30.1366.738@0.30.1366.738" timestamp="1600445059242" />
+    <state width="507" height="466" key="DebuggerActiveHint/0.30.1366.738@0.30.1366.738" timestamp="1600514570508" />
+    <state x="119" y="86" width="1092" height="618" maximized="true" key="DiffContextDialog" timestamp="1600514333306">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="119" y="86" width="1092" height="618" maximized="true" key="DiffContextDialog/0.30.1366.738@0.30.1366.738" timestamp="1600514333306" />
     <state x="463" y="154" key="FileChooserDialogImpl" timestamp="1600223817440">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
     <state x="463" y="154" key="FileChooserDialogImpl/0.30.1366.738@0.30.1366.738" timestamp="1600223817440" />
-    <state width="1323" height="208" key="GridCell.Tab.0.bottom" timestamp="1600489344084">
+    <state width="1323" height="262" key="GridCell.Tab.0.bottom" timestamp="1600583323125">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="208" key="GridCell.Tab.0.bottom/0.30.1366.738@0.30.1366.738" timestamp="1600489344084" />
-    <state width="1323" height="208" key="GridCell.Tab.0.center" timestamp="1600489344084">
+    <state width="1323" height="262" key="GridCell.Tab.0.bottom/0.30.1366.738@0.30.1366.738" timestamp="1600583323125" />
+    <state width="1323" height="262" key="GridCell.Tab.0.center" timestamp="1600583323124">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="208" key="GridCell.Tab.0.center/0.30.1366.738@0.30.1366.738" timestamp="1600489344084" />
-    <state width="1323" height="208" key="GridCell.Tab.0.left" timestamp="1600489344083">
+    <state width="1323" height="262" key="GridCell.Tab.0.center/0.30.1366.738@0.30.1366.738" timestamp="1600583323124" />
+    <state width="1323" height="262" key="GridCell.Tab.0.left" timestamp="1600583323124">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="208" key="GridCell.Tab.0.left/0.30.1366.738@0.30.1366.738" timestamp="1600489344083" />
-    <state width="1323" height="208" key="GridCell.Tab.0.right" timestamp="1600489344084">
+    <state width="1323" height="262" key="GridCell.Tab.0.left/0.30.1366.738@0.30.1366.738" timestamp="1600583323124" />
+    <state width="1323" height="262" key="GridCell.Tab.0.right" timestamp="1600583323124">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="208" key="GridCell.Tab.0.right/0.30.1366.738@0.30.1366.738" timestamp="1600489344084" />
-    <state width="1323" height="208" key="GridCell.Tab.1.bottom" timestamp="1600489343940">
+    <state width="1323" height="262" key="GridCell.Tab.0.right/0.30.1366.738@0.30.1366.738" timestamp="1600583323124" />
+    <state width="1323" height="150" key="GridCell.Tab.1.bottom" timestamp="1600566443067">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="208" key="GridCell.Tab.1.bottom/0.30.1366.738@0.30.1366.738" timestamp="1600489343940" />
-    <state width="1323" height="208" key="GridCell.Tab.1.center" timestamp="1600489343940">
+    <state width="1323" height="150" key="GridCell.Tab.1.bottom/0.30.1366.738@0.30.1366.738" timestamp="1600566443067" />
+    <state width="1323" height="150" key="GridCell.Tab.1.center" timestamp="1600566443066">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="208" key="GridCell.Tab.1.center/0.30.1366.738@0.30.1366.738" timestamp="1600489343940" />
-    <state width="1323" height="208" key="GridCell.Tab.1.left" timestamp="1600489343940">
+    <state width="1323" height="150" key="GridCell.Tab.1.center/0.30.1366.738@0.30.1366.738" timestamp="1600566443066" />
+    <state width="1323" height="150" key="GridCell.Tab.1.left" timestamp="1600566443066">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="208" key="GridCell.Tab.1.left/0.30.1366.738@0.30.1366.738" timestamp="1600489343940" />
-    <state width="1323" height="208" key="GridCell.Tab.1.right" timestamp="1600489343940">
+    <state width="1323" height="150" key="GridCell.Tab.1.left/0.30.1366.738@0.30.1366.738" timestamp="1600566443066" />
+    <state width="1323" height="150" key="GridCell.Tab.1.right" timestamp="1600566443066">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1323" height="208" key="GridCell.Tab.1.right/0.30.1366.738@0.30.1366.738" timestamp="1600489343940" />
-    <state x="163" y="30" key="SettingsEditor" timestamp="1600223819686">
+    <state width="1323" height="150" key="GridCell.Tab.1.right/0.30.1366.738@0.30.1366.738" timestamp="1600566443066" />
+    <state x="163" y="30" key="SettingsEditor" timestamp="1600592816498">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state x="163" y="30" key="SettingsEditor/0.30.1366.738@0.30.1366.738" timestamp="1600223819686" />
-    <state x="530" y="314" key="VCS.ChangelistChooser" timestamp="1600445050623">
+    <state x="163" y="30" key="SettingsEditor/0.30.1366.738@0.30.1366.738" timestamp="1600592816498" />
+    <state x="530" y="314" key="VCS.ChangelistChooser" timestamp="1600490745992">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state x="530" y="314" key="VCS.ChangelistChooser/0.30.1366.738@0.30.1366.738" timestamp="1600445050623" />
-    <state x="275" y="132" key="Vcs.Push.Dialog.v2" timestamp="1600489483565">
+    <state x="530" y="314" key="VCS.ChangelistChooser/0.30.1366.738@0.30.1366.738" timestamp="1600490745992" />
+    <state x="275" y="132" key="Vcs.Push.Dialog.v2" timestamp="1600490794503">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state x="275" y="132" key="Vcs.Push.Dialog.v2/0.30.1366.738@0.30.1366.738" timestamp="1600489483565" />
-    <state x="456" y="133" key="VcsDiffUtil.ChangesDialog" timestamp="1600445105601">
+    <state x="275" y="132" key="Vcs.Push.Dialog.v2/0.30.1366.738@0.30.1366.738" timestamp="1600490794503" />
+    <state x="456" y="133" key="VcsDiffUtil.ChangesDialog" timestamp="1600509295911">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state x="456" y="133" key="VcsDiffUtil.ChangesDialog/0.30.1366.738@0.30.1366.738" timestamp="1600445105601" />
-    <state x="379" y="223" key="com.intellij.ide.util.TipDialog" timestamp="1600392558434">
+    <state x="456" y="133" key="VcsDiffUtil.ChangesDialog/0.30.1366.738@0.30.1366.738" timestamp="1600509295911" />
+    <state x="92" y="122" width="1182" height="554" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600514333306">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state x="379" y="223" key="com.intellij.ide.util.TipDialog/0.30.1366.738@0.30.1366.738" timestamp="1600392558434" />
+    <state x="92" y="122" width="1182" height="554" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.30.1366.738@0.30.1366.738" timestamp="1600514333306" />
+    <state x="379" y="223" key="com.intellij.ide.util.TipDialog" timestamp="1600565578227">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="379" y="223" key="com.intellij.ide.util.TipDialog/0.30.1366.738@0.30.1366.738" timestamp="1600565578227" />
     <state x="332" y="30" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600332675309">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
     <state x="332" y="30" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.30.1366.738@0.30.1366.738" timestamp="1600332675309" />
-    <state x="379" y="131" width="607" height="536" key="find.popup" timestamp="1600424051039">
+    <state x="379" y="131" width="607" height="536" key="find.popup" timestamp="1600566359670">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state x="379" y="131" width="607" height="536" key="find.popup/0.30.1366.738@0.30.1366.738" timestamp="1600424051039" />
-    <state x="339" y="180" key="run.anything.popup" timestamp="1600325181891">
+    <state x="379" y="131" width="607" height="536" key="find.popup/0.30.1366.738@0.30.1366.738" timestamp="1600566359670" />
+    <state x="339" y="180" key="run.anything.popup" timestamp="1600506161076">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state x="339" y="180" key="run.anything.popup/0.30.1366.738@0.30.1366.738" timestamp="1600325181891" />
+    <state x="339" y="180" key="run.anything.popup/0.30.1366.738@0.30.1366.738" timestamp="1600506161076" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1600400911137">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
@@ -374,19 +438,34 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/marking/assistant/database/DatabaseHandler.java</url>
-          <line>79</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/marking/assistant/database/DatabaseHandler.java</url>
-          <line>78</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/home/modal/StudentMarks.java</url>
           <line>48</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/home/controller/MainController.java</url>
+          <line>382</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/home/controller/MainController.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/home/controller/MainController.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/home/controller/MainController.java</url>
+          <line>224</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/home/controller/AddStudentController.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

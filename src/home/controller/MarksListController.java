@@ -15,6 +15,10 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.AnchorPane;
 import marking.assistant.database.DatabaseHandler;
 
+/**
+ * This Controller handles all the function of loading all the student list from database
+ */
+
 public class MarksListController implements Initializable {
     ObservableList<StudentMarks> studentMarks = FXCollections.observableArrayList();
 
@@ -42,12 +46,14 @@ public class MarksListController implements Initializable {
     @FXML
     private TableColumn<StudentMarks, String> gradeCol;
 
+    // main method to initialize stage
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         initColumn();
         loadStudentMarksData();
     }
 
+    // method to initialize table
     private void initColumn(){
         studentIdCol.setCellValueFactory(new PropertyValueFactory<>("StudentId"));
         assignment1Col.setCellValueFactory(new PropertyValueFactory<>("assignment1"));
@@ -57,6 +63,7 @@ public class MarksListController implements Initializable {
         gradeCol.setCellValueFactory(new PropertyValueFactory<>("grade"));
     }
 
+    // method to load all student data list
     private void loadStudentMarksData(){
         DatabaseHandler databaseHandler = DatabaseHandler.getInstance();
         String qu = "SELECT * FROM MARKS";
