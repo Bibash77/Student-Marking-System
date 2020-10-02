@@ -135,7 +135,7 @@ public class AddStudentController implements Initializable {
 
     // method to find marks
     String findGrade  (int marks , int ass1 , int ass2 , int exam){
-       if(ass1 <= 0 && ass2 <= 0){
+       if(ass1 <= 0 && ass2 <= 0 || marks == 0){
            return "AF";
        }
         if(marks >= 85 && marks <=100){
@@ -147,14 +147,14 @@ public class AddStudentController implements Initializable {
         } else if(marks >= 50 && marks < 65){
             return  "P";
         } else {
-            if(marks < 50 && exam <= 0){
-                return "NS";
+            if(marks < 50 && marks >= 45){
+                if(ass1 < 10 || ass2 < 15){
+                    return "SA";
+                } else if(exam < 25){
+                    return "SE";
+                }
             }
-            if(marks >= 45 && marks < 50 && exam > 0 && (ass1 <= 0 || ass2 <= 0)){
-                return "SE";
-            } else {
-                return  "F";
-            }
+            return "F";
         }
     }
 
