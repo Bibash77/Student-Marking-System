@@ -15,7 +15,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://D:/Java 8/derby/db-derby-10.8.1.2-lib/lib/derby.jar!/" />
+          <root url="jar://$MODULE_DIR$/jars/derbyclient.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -24,7 +24,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://D:/Java 8/derby/db-derby-10.8.1.2-lib/lib/derbyclient.jar!/" />
+          <root url="jar://$MODULE_DIR$/jars/derby.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

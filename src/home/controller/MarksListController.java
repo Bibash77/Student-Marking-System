@@ -66,7 +66,7 @@ public class MarksListController implements Initializable {
     // method to load all student data list
     private void loadStudentMarksData(){
         DatabaseHandler databaseHandler = DatabaseHandler.getInstance();
-        String qu = "SELECT * FROM MARKS";
+        String qu = "SELECT * FROM MARKS ORDER BY TOTAL DESC";
         ResultSet rs = databaseHandler.execQuery(qu);
         try {
             while (rs.next()){

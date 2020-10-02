@@ -351,9 +351,9 @@ public class MainController implements Initializable {
         if (isRangeSearch) {
             int startMarks = Integer.parseInt(startMarksInput.getText());
             int endMarks = Integer.parseInt(endMarksInput.getText());
-            qu = "SELECT * FROM MARKS WHERE total >=" + startMarks + "and total <=" + endMarks;
+            qu = "SELECT * FROM MARKS WHERE total >=" + startMarks + "and total <=" + endMarks + "ORDER BY TOTAL DESC";
         } else {
-            qu = "SELECT * FROM MARKS";
+            qu = "SELECT * FROM MARKS ORDER BY TOTAL DESC";
         }
         ResultSet rs = databaseHandler.execQuery(qu);
         try {

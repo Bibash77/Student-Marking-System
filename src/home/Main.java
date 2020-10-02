@@ -13,7 +13,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("/home/view/main.fxml"));
         primaryStage.setTitle("Dashboard");
-        primaryStage.setScene(new Scene(root, 670, 476));
+        primaryStage.setScene(new Scene(root, 685, 490));
         primaryStage.show();
         new Thread(DatabaseHandler::getInstance).start();
     }
